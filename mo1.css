@@ -1,0 +1,64 @@
+{
+	background-color: #ff0000;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-sarif;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ),url("mo12/IMG_8238.JPG.JPG");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+header{
+	width: auto;
+	overflow: auto;
+}
+
+.logo{
+	float: left;
+}
+
+.logo h2{
+	color: #ff0000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ff0000
+}
+
+nav{
+	width: 50%;
+	min-width: 600px
+	height:100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 30px
+   font-family: sans-serif; 
+   text-transform: capitalize;
+   color: #ff0000;
+}
+
+a:before {
+	content: '';
+position: absolute;
+left: 0;
+height: 2px
+width: 100%;
+background-color: #ff0000;
+}

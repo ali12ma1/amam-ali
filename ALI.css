@@ -1,0 +1,154 @@
+/* Resetting default margin and padding */
+* {
+    background-color: #ff0000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    font-size: px;
+    color: #333;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #007bff;
+}
+
+.main {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.main h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form label {
+    font-size: 20px;
+    margin-left: -40px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.projects {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.project-card {
+    margin-bottom: 40px;
+}
+
+.project-card img {
+    width: %;
+    height: ;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.project-card p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+
+}    
